@@ -73,7 +73,7 @@ node index.js
 
 4. 启动
 
-node index.js
+node mcJAVA-bot-.js
 
 ⚙️ 配置说明
 
@@ -171,8 +171,6 @@ plugin.json 示例
 
 index.js 示例
 
-javascript
-
 module.exports.init = (config, hooks) => {
 
   // config 来自 config/my-plugin.json
@@ -185,9 +183,10 @@ module.exports.init = (config, hooks) => {
     
     console.log(`[插件 my-plugin] 发送: ${msg}`);
   })
+  
   ;
+  
 };
-
 
 可用钩子
 
@@ -209,11 +208,9 @@ context 包含 { botId, playerName, version }。
 
 📁 项目结构
 
-text
+mcJAVA-bot-/
 
-minecraft-bulk-login/
-
-├── index.js               # 主程序入口
+├── mcJAVA-bot-.js               # 主程序入口
 
 ├── config.json            # 配置文件（自动生成）
 
