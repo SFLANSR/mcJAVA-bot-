@@ -55,7 +55,7 @@ npm 或 yarn
 
 1. 克隆项目
 
-git clone https://github.com/SFLANSR/mcJAVA-bot-
+git clone https://github.com/Lx934/mcJAVA-bot-
 
 cd minecraft-bulk-login
 
