@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "permission": 0,
+  "config": {
+    "report_interval": 10
+  }
+}

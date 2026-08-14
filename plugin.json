@@ -1,0 +1,12 @@
+{
+  "name": "adaptive-enhancer",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "自适应增强插件，接管主程序的自适应控制，动态调整重试延迟和连接间隔",
+  "usage": "无需配置，自动运行。可在 config.json 中调整 report_interval",
+  "requiredPermission": 0,
+  "main": "main.py",
+  "defaultConfig": {
+    "report_interval": 10
+  }
+}
